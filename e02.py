@@ -7,7 +7,7 @@ import random
 numsecret=random.randint(1,20)
 print('BIENVENIDO A LA ADIVINANZA, EL JUEGO CONSISTE EN ADIVINAR UN NUMERO DEL 1-20')
 num=int(input('QUE EMPIEZE EL JUEGO: '))
-while(vidas!=0):  
+while(vidas!=1):  
     if (numsecret==num):
             print('Felicidades ganaste el juego')
             break

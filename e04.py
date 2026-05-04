@@ -1,6 +1,6 @@
 # una bacteria se produce en un lapso de una hora. luego por cada
-# hora que pasacada bacteria se reproduce en otra. pregunta al
-# usuario cuantas horas pasaron e indicar cuntas bacterias habrá
+# hora que pasa cada bacteria se reproduce en otra. pregunta al
+# usuario cuantas horas pasaron e indicar cuantas bacterias habrá
 
 
 H=int(input("horas:  "))
