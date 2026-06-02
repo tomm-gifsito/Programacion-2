@@ -10,19 +10,17 @@ M=[[1,2,3,4],
 for fila in M:
     print(fila)
 
-f= 4
 suma = 0
 multi = 1
 diagonal = []
 
-for i in range(f):
-    for j in range(f):
-        if i + j == f - 1:
-            elemento = M[i][j]
-            diagonal.append(elemento)
-            suma+= elemento
-            multi*= elemento
+for i in range(4):
+    for j in range(4):
+        if (i==j):
+            o=M[i][j]
+            suma= suma+o
+            multi= multi*o
             
-print('Elementos diagonal: ',diagonal)
+
 print('Suma diagonal: ',suma)
 print('Multiplicación diagonal: ',multi)

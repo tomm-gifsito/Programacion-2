@@ -20,7 +20,7 @@ def Cc(M, D):
             else:
                 i = ord('a')
                 
-# formula: ---nuevo_ord = (ord(caracter)(el numerin en ASCII) - inicio(97) + desplazamiento(se mueve de un numero al otro)) % 26(va por el abecedario) + inicio(traducimos de ASCII a caracter)---
+# formula:--- nuevo_ord = (ord(CAracter)(el numerin en ASCII) - Inicio(97) + Desplazamiento(se mueve de un numero al otro)) % 26(va por el abecedario) + inicio(traducimos de ASCII a caracter)---
 
             nuevo_ord = (ord(Ca) - i + D) % 26 + i
             R += chr(nuevo_ord)
