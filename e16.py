@@ -9,7 +9,7 @@ import numpy as np
 
 foto = Image.open('/content/sample_data/floramarilla.jpg')
 foto = np.array(foto)
-# dimen= np.shape(foto)
+dimen= np.shape(foto)
 
 def convertir(image_input):
     alto = image_input.shape[0]
