@@ -85,7 +85,7 @@ tk.Entry(
     justify="center",
 ).pack(pady=60)
 
-#boton
+# boton
 canvas = tk.Canvas(
     app,
     width=150,
